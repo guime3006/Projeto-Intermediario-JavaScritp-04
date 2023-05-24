@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* CORPO */
+
+body{
+    height: 100vh;
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin-top: 30px;
+    font-size: 34px;
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+span{
+    color: yellow;
+    font-weight: bold;
+}
+
+/* NUMBER RAMDOM */
+
+.number{
+    width: 600px;
+    margin-top: 15px;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+}
